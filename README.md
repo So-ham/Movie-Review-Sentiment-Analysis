@@ -12,7 +12,14 @@ Go to http://127.0.0.1:8000/docs to access the swagger documentation.
 
 ### Libraries Used
 - nltk, tqdm, numpy and re: for text preprocessing
-- Keras: modelling and tokenization
+- Keras: for tokenization and modelling
 - sklearn: for data splitting
 - pickle: for object loading and saving
 - FastApi: for locally running the RESTApi
+
+
+
+
+
+https://user-images.githubusercontent.com/47505306/148219478-1afd7e77-efc2-4f6f-b5ad-a642d16dcc7f.mp4
+
