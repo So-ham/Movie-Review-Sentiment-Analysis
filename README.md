@@ -1,2 +1,18 @@
 # Movie-Review-Sentiment-Analysis
 This is a locally working Movie Review Sentiment Analysis Api 
+
+### Get Started
+
+- ` pip install -r requirements.txt`
+-  Now in cmd/terminal, cd  `to\the\project`
+- `uvicorn main:app --reload`
+
+A server spins up to access the sentiment analysis api locally. <br>
+Go to http://127.0.0.1:8000/docs to access the swagger documentation.
+
+### Libraries Used
+- nltk, tqdm, numpy and re: for text preprocessing
+- Keras: modelling and tokenization
+- sklearn: for data splitting
+- pickle: for object loading and saving
+- FastApi: for locally running the RESTApi
